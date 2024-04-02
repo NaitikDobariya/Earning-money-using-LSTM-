@@ -19,10 +19,15 @@ The project is based on a Kaggle notebook, which can be accessed via this [Kaggl
 The trading bot strategy employed in this project can be summarized as follows:
 
 Loop through each day's predicted and actual prices:
+
     If the predicted price is higher than the actual price:
-        buy shares using available money.
+    
+        buy shares using available money
+        
     If the predicted price is lower than the actual price:
-        sell shares to convert them into money.
+    
+        sell shares to convert them into money
+        
 Calculate the final amount based on the remaining shares and available money
 
 ### Libraries Used
